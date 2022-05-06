@@ -1,0 +1,78 @@
+.grid {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.grid .content {
+    background-color: white;
+    border-top: solid 5px black;
+    height: 600px;
+    background-image: url(./assets/images/content-background.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.grid .content .conteiner {
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.grid .content .conteiner .personal-poto {
+    border: solid 5px rgba(0, 0, 0, 0.065);
+    border-radius: 100px;
+}
+
+.grid .content .conteiner .row {
+    margin-bottom: 33px;
+}
+
+.profile-title {
+    font-family: ProximaSoft_bold;
+    font-weight: bolder;
+}
+
+.profile-subtitle {
+    font-family: proxima_nova_reg;
+    font-weight: bolder;
+}
+
+.v-card {
+    background-color: rgba(0, 145, 255, 0.391);
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.766);
+    font-family: proxima_nova_reg;
+    height: 50px;
+    align-items: center;
+}
+
+.social-media-icons {
+    justify-content: center;
+    display: flex;
+}
+
+.social-media-icons .facebook-icon:hover {
+    background-color: rgb(20, 20, 219);
+    cursor: pointer;
+}
+
+.social-media-icons .instagram-icon:hover {
+    background-color: rgb(110, 3, 51);
+    cursor: pointer;
+}
+
+.social-media-icons .watsapp-icon:hover {
+    background-color: rgb(0, 255, 81);
+    cursor: pointer;
+}
+
+.social-media-icons .linkedin-icon:hover {
+    background-color: rgb(7, 98, 172);
+    cursor: pointer;
+}
+
+.social-media-icons .twitter-icon:hover {
+    background-color: rgb(4, 199, 247);
+    cursor: pointer;
+}
